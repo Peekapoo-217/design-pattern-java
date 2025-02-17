@@ -1,0 +1,11 @@
+package factory;
+
+import model.CreditPayment;
+import model.PaymentMethod;
+
+public class CreditPaymentMethodFactory extends AbstractPaymentFactory{
+	@Override
+	public PaymentMethod createCreditPaymentMethod() {
+		return new CreditPaymentMethod();
+	}
+}

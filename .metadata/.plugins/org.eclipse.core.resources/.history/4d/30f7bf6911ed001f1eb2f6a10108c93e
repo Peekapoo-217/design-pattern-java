@@ -1,0 +1,6 @@
+package factory;
+import model.PaymentMethod;
+
+public abstract class AbstractPaymentFactory {
+	PaymentMethod createPaymentMethod(); 
+}

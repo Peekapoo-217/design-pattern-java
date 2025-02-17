@@ -1,0 +1,16 @@
+package main;
+
+import factory.AbstractPaymentFactory;
+import factory.CreditPaymentMethodFactory;
+import model.PaymentMethod;
+
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("gg");
+		
+		AbstractPaymentFactory creditPaymentFactory = new CreditPaymentMethodFactory();
+		PaymentMethod creditPaymentMethod = creditPaymentFactory.createPaymentMethod();
+		creditPaymentMethod.paymentMethod(100);
+		
+	}
+}

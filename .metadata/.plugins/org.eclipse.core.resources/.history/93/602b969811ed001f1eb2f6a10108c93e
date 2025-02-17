@@ -1,0 +1,11 @@
+package factory;
+
+import model.PaymentMethod;
+import model.VisaPaymentMethod;
+
+public class VisaPaymentMethodFactory extends AbstractPaymentFactory{
+	@Override
+	public PaymentMethod createVisaPaymentMethod() {
+		return new VisaPaymentMethod();
+	}
+}

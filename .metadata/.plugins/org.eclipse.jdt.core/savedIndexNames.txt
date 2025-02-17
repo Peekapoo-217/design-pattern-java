@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+F:\JAVACORE\DESIGNPATTERN\FACTORY_PATTERN\.metadata\.plugins\org.eclipse.jdt.core
+395990938.index
+1865797976.index
+3445487102.index

@@ -1,0 +1,5 @@
+package model;
+	
+interface PaymentMethod {
+	void paymentMethod(double amount);
+}

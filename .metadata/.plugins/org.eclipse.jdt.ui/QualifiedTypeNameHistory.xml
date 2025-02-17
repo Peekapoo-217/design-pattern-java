@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="main.main"/>
+    <fullyQualifiedTypeName name="java.lang.Package"/>
+    <fullyQualifiedTypeName name="factory.PaymentFactory"/>
+    <fullyQualifiedTypeName name="model.VisaPaymentMethod"/>
+    <fullyQualifiedTypeName name="model.CreditPayment"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
+    <fullyQualifiedTypeName name="factory.AbstractPaymentFactory"/>
+    <fullyQualifiedTypeName name="factory.CreditPaymentMethodFactory"/>
+    <fullyQualifiedTypeName name="model.PaymentMethod"/>
+</qualifiedTypeNameHistroy>

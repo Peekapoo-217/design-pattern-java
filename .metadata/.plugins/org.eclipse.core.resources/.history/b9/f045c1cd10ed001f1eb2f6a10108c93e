@@ -1,0 +1,6 @@
+package factory;
+package 
+
+abstract class PaymentFactory {
+	public abstract PaymentMethod createPaymentMethod(); 
+}

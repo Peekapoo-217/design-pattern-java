@@ -1,0 +1,8 @@
+package model;
+
+public class VisaPaymentMethod implements PaymentMethod{
+	@Override
+	public void paymentMethod(double amount) {
+		System.out.println("Visa payment: "+ amount);
+	}
+}

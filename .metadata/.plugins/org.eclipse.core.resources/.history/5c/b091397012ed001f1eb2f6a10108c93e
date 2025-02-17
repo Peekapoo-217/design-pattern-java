@@ -1,0 +1,10 @@
+package factory;
+
+import model.CreditPayment;
+import model.PaymentMethod;
+
+public class CreditPaymentMethodFactory implements AbstractPaymentFactory{
+	public PaymentMethod createPaymentMethod() {
+		return new CreditPayment();
+	}
+}
