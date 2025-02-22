@@ -1,7 +1,7 @@
-package factory;
+package factories;
 
-import model.PaymentMethod;
-import model.VisaPaymentMethod;
+import models.PaymentMethod;
+import models.VisaPaymentMethod;
 
 public class VisaPaymentMethodFactory extends AbstractPaymentFactory{
 	@Override

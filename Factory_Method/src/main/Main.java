@@ -1,16 +1,16 @@
 package main;
 
-import factory.AbstractPaymentFactory;
-import factory.CreditPaymentMethodFactory;
-import model.PaymentMethod;
+import enums.PaymentType;
+import factories.AbstractPaymentFactory;
+import factories.PaymentFactory;
+import models.PaymentMethod;
 
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("gg");
+		AbstractPaymentFactory factory = PaymentFactory.createPaymentMethod(PaymentType.VISA);
 		
-		AbstractPaymentFactory creditPaymentFactory = new CreditPaymentMethodFactory();
-		PaymentMethod creditPaymentMethod = creditPaymentFactory.createPaymentMethod();
-		creditPaymentMethod.paymentMethod(100);
+		PaymentMethod paymentMethod = factory.createPaymentMethod();
 		
+		paymentMethod.processPayment(500);
 	}
 }

@@ -1,7 +1,7 @@
-package factory;
+package factories;
 
-import model.CreditPayment;
-import model.PaymentMethod;
+import models.CreditPayment;
+import models.PaymentMethod;
 
 public class CreditPaymentMethodFactory extends AbstractPaymentFactory{
 	@Override
